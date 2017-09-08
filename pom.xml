@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
+    
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
@@ -23,5 +24,11 @@
         </configuration>
       </plugin>
     </plugins>
+    <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>3.0.1</version>
+    <scope>provided</scope>
+</dependency>
   </build>
 </project>
